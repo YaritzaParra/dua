@@ -15,13 +15,16 @@ export function Menu() {
                                 <Link className="nav-link active" aria-current="page" to="/">Inicio</Link>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link" aria-current="page" to="/integrantes">Integrates</Link>
+                                <Link className="nav-link" aria-current="page" to="/colaboraciones">Colaboraciones</Link>
                             </li>
                             <li className="nav-item">
                                 <Link className="nav-link" aria-current="page" to="/tienda">Tienda</Link>
                             </li>
                             <li className="nav-item">
                                 <Link className="nav-link" aria-current="page" to="/musica">Musica</Link>
+                            </li>
+                            <li className="nav-item">
+                                <Link className="nav-link" aria-current="page" to="/fans">Fans</Link>
                             </li>
                         </ul>
                     </div>

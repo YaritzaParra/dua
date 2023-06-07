@@ -2,6 +2,7 @@ import { Collapse } from "bootstrap"
 import { History } from "../History/History"
 import './Home.css'
 import { Complemento } from "../Complemento/Complemento"
+import { Footer } from "../Shared/Footer/footer"
 
 export function Home(){
     return(
@@ -12,7 +13,7 @@ export function Home(){
         <section><History/></section>
         <section className="banner3"></section>
         <section><Complemento/></section>
-        
+        <section><Footer/></section>
 
         </>
     )
